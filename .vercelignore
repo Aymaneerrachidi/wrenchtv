@@ -1,0 +1,7 @@
+.git
+node_modules
+screenshots
+test-results
+playwright-report
+*.tsbuildinfo
+scripts

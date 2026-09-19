@@ -1,0 +1,17 @@
+node_modules/
+.vercel/
+.env.local
+.env.*.local
+playwright-report/
+test-results/
+dist/
+screenshots/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.chrome-preview*/
+.mobile-check.png
+
+.vercel
+.env*
+!.env.example
