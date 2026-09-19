@@ -1,5 +1,7 @@
 # Wrench TV
 
+[Live website](https://wrenchtv.vercel.app) · [GitHub](https://github.com/Aymaneerrachidi/wrenchtv)
+
 A standalone React + TypeScript + Vite website for the Wrench TV memecoin concept. This project is separate from the adjacent ETRADE project.
 
 ![Wrench TV desktop preview](public/media/readme-preview.png)
@@ -29,7 +31,7 @@ With the development server running, `npm run verify` checks the TV controls, me
 
 The page and fonts are self-hosted. Only the external podcast, transcript, and configured community/buy links need third-party services. No wallet connection or backend is required.
 
-Deploy the generated `dist` directory to a static host. Set the production domain and use an absolute `og:image` URL in `index.html` when a domain is available.
+Vercel deploys the generated `dist` directory. This repository is connected to the `wrenchtv` Vercel project; pushes to `main` trigger production deployments. When adding a custom domain, update the canonical and Open Graph URLs in `index.html`.
 
 ## Features
 
